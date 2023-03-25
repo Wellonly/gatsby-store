@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-theme-third",
+  "version": "0.0.3",
+  "main": "index.js",
+  "author": "Well",
+  "license": "MIT",
+  "dependencies_toRemove": {
+    "materialui-pagination-component": "^1.1.11",
+    "moment": "^2.24.0",
+    "yarn": "^1.22.0",
+    "prop-types": "^15.7.2",
+    "gatsby-transformer-remark": "^2.6.37",
+    "gatsby-remark-emojis": "^0.4.2",
+    "gatsby-remark-images": "^3.3.0",
+    "@material-ui/core/styles": "^4.9.14",
+    "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "dotenv": "8.2.0",
+    "@mdx-js/mdx": "^1.6.1",
+    "@mdx-js/react": "^1.6.1",
+    "gatsby-plugin-mdx": "^1.2.5",
+    "gatsby-source-graphql": "^2.4.0",
+    "gatsby-plugin-manifest": "^2.2.29",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-source-filesystem": "^2.1.38",
+    "gatsby-transformer-remark": "^2.8.5",
+    "gatsby-transformer-sharp": "^2.5.0",
+    "gatsby-plugin-sharp": "^2.6.0",
+    "gatsby-image": "^2.4.0",
+    "dateformat": "^3.0.3",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "classnames": "^2.2.6",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.13.9"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com"
+}

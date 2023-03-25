@@ -1,0 +1,44 @@
+
+1) Взаимодействие с сервисом требует клиентской авторизации. Авторизация клиентов обеспечивается с применением протокола OAuth 2.0.
+
+Для получения токена необходимо отправить POST-запрос (x-www-form-urlencoded) на URL:
+тестовая	https://api.edu.cdek.ru/v2/oauth/token?parameters
+боевая	https://api.cdek.ru/v2/oauth/token?parameters
+
+Разрешенные параметры и их возможные значения:
+grant_type: тип аутентификации, доступное значение: client_credentials;
+client_id: идентификатор клиента, равен Account;
+client_secret: секретный ключ клиента, равен Secure password.
+
+В ответ на запрос доступа будет возвращена следующая информация:
+access_token: jwt-токен;
+token_type: тип токена (всегда принимает значение "bearer");
+expires_in: срок действия токена (по умолчанию 3600 секунд);
+scope: область действия токена (доступ к объектам и операциям над ними);
+jti: уникальный идентификатор токена.
+
+//Далее при обращении к методам сервиса полученный токен передается в заголовке запроса в следующем виде:
+//Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJvcmRlcjphbGw...
+
+...................................Example:
+// auth request: POST: https://api.edu.cdek.ru/v2/oauth/token?grant_type=client_credentials&client_id=EMscd6r9JnFiQ3bLoyjJY6eM78JrJceI&client_secret=PjLZkKBHEiLK3YsjtNrt3TGNG0ahs3kG
+/* ...and response code 200 with headers and data:
+server: nginx
+date: Mon, 13 Jul 2020 11:27:30 GMT
+content-type: application/json;charset=utf-8
+transfer-encoding: chunked
+connection: keep-alive
+vary: Accept-Encoding
+cache-control: no-store
+pragma: no-cache
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJvcmRlcjphbGwiLCJwYXltZW50OmFsbCJdLCJleHAiOjE1OTQ2NDMyNTAsImF1dGhvcml0aWVzIjpbInNoYXJkLWlkOnJ1LTAxIiwiZnVsbC1uYW1lOtCi0LXRgdGC0LjRgNC-0LLQsNC90LjQtSDQmNC90YLQtdCz0YDQsNGG0LjQuCDQmNCcLCDQntCR0KnQldCh0KLQktCeINChINCe0JPQoNCQ0J3QmNCn0JXQndCd0J7QmSDQntCi0JLQldCi0KHQotCS0JXQndCd0J7QodCi0KzQriIsImNvbnRyYWN0OtCY0Jwt0KDQpC3Qk9Cb0JMtMjIiLCJhY2NvdW50LWxhbmc6cnVzIiwiYWNjb3VudC11dWlkOmU5MjViZDBmLTA1YTYtNGM1Ni1iNzM3LTRiOTljMTRmNjY5YSIsImFwaS12ZXJzaW9uOjEuMSIsImNsaWVudC1pZC1lYzU6ZWQ3NWVjZjQtMzBlZC00MTUzLWFmZTktZWI4MGJiNTEyZjIyIiwiY2xpZW50LWlkLWVjNDoxNDM0ODIzMSIsInNvbGlkLWFkZHJlc3M6ZmFsc2UiLCJjbGllbnQtY2l0eTrQndC-0LLQvtGB0LjQsdC40YDRgdC6LCDQndC-0LLQvtGB0LjQsdC40YDRgdC60LDRjyDQvtCx0LsuIl0sImp0aSI6ImEzMTZhMjljLTdkMGQtNDg2YS05NjIzLWY4MDFlMWRkY2Q3NyIsImNsaWVudF9pZCI6IkVNc2NkNnI5Sm5GaVEzYkxveWpKWTZlTTc4SnJKY2VJIn0.RLocqiktRmbh2t4LsZb5KLqYfBJ1h9vSLuwD_0UO_YSD-wve5eeDIfFcs3G_pvY6EBTAqu5Qw0xdU1Pc4gBhshD1Bb7io4hCX4XmaCRNBc_YOPe0mMvjRpSNLXkD3Ei3iFj744dsfemAseMHw-pAMTNFWbS4jN9eKH411vbOqJwPBPU-6ZDv3wdnYiOr5Th8gEZiSf5w3ekKC_1CN_tVrhq5MLFxshZ5_XwxuPILl-08V3M2xrlMjyi62I1aXnDkXR2WpzJCVQy91R7UmW3yI3sYRgWaH2b9mVMUXai3m7Cju_0c0Qp0qBMnRVieVt-W4lgjMaacXKVgSjbIuzWluA",
+  "token_type": "bearer",
+  "expires_in": 3599,
+  "scope": "order:all payment:all",
+  "jti": "a316a29c-7d0d-486a-9623-f801e1ddcd77"
+}
+*/

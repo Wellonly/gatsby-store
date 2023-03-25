@@ -1,0 +1,446 @@
+[
+  {
+    "code": 173,
+    "longitude": 37.89,
+    "latitude": 55.6801,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " гор. окр. Люберцы",
+    "city": "Октябрьский",
+    "postal_codes": [
+      "140060"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61224,
+    "country_code": "RU",
+    "region": "Курская обл.",
+    "region_code": 62,
+    "sub_region": " Малоярославецкий р-н",
+    "city": "Торбеево",
+    "postal_codes": [
+      "249088"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 60889,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Пушкинский р-н",
+    "city": "Хлотпево",
+    "postal_codes": [
+      "142253"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61202,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Богатовский р-н",
+    "city": "Максимовка",
+    "postal_codes": [
+      "446634"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61215,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Егорьевский р-н",
+    "city": "Щеголево",
+    "postal_codes": [
+      "140318"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61050,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Егорьевский р-н",
+    "city": "Чернолесье",
+    "postal_codes": [
+      "140343"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61667,
+    "country_code": "RU",
+    "region": "Алтай респ.",
+    "region_code": 25,
+    "sub_region": " Рубцовский р-н",
+    "city": "Новосклюиха",
+    "postal_codes": [
+      "658252"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 61584,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " поселение Михайлово-Ярцевское",
+    "city": "Ярцево",
+    "postal_codes": [
+      "108833"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61585,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Подольский р-н",
+    "city": "Ярцевские поляны",
+    "postal_codes": [
+      "143813"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61535,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Талдомский р-н",
+    "city": "снт Надежда (Юркино)",
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61541,
+    "longitude": 37.721732,
+    "latitude": 55.237823,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " г Домодедово",
+    "city": "Юсупово",
+    "postal_codes": [
+      "142032"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61621,
+    "country_code": "RU",
+    "region": "Свердловская обл.",
+    "region_code": 24,
+    "sub_region": " Пригородный р-н",
+    "city": "тер Сдт 15 ОАО НТМК",
+    "postal_codes": [
+      "622001"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61810,
+    "country_code": "RU",
+    "region": "Дагестан респ.",
+    "region_code": 21,
+    "sub_region": " Курахский р-н",
+    "city": "Бугда-Тепе",
+    "postal_codes": [
+      "368192"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 61971,
+    "country_code": "RU",
+    "region": "Вологодская обл.",
+    "region_code": 51,
+    "sub_region": " с/мо Воскресенское сельское поселение",
+    "city": "Поповка",
+    "postal_codes": [
+      "162686"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 61986,
+    "country_code": "RU",
+    "region": "Башкортостан респ.",
+    "region_code": 27,
+    "sub_region": " Стерлитамак",
+    "city": "Шахтау",
+    "postal_codes": [
+      "453104"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 62257,
+    "longitude": 37.343676,
+    "latitude": 56.067876,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": "",
+    "city": "Заповедное Озеро",
+    "postal_codes": [
+      "141895"
+    ],
+    "country": "Россия",
+    "time_zone": "Europe/Moscow",
+    "payment_limit": -1
+  },
+  {
+    "code": 62404,
+    "country_code": "RU",
+    "region": "Архангельская обл.",
+    "region_code": 66,
+    "sub_region": "",
+    "city": "Ненокса",
+    "postal_codes": [
+      "164526"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 62840,
+    "country_code": "RU",
+    "region": "Саха респ. (Якутия)",
+    "region_code": 10,
+    "sub_region": " Мегино-Кангаласский р-н",
+    "city": "Суола",
+    "postal_codes": [
+      "678094"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 62818,
+    "country_code": "RU",
+    "region": "Краснодарский край",
+    "region_code": 7,
+    "sub_region": " Крымский р-н",
+    "city": "Садовый",
+    "postal_codes": [
+      "353358"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 60853,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Наро-Фоминский р-н",
+    "city": "Фрунзевец",
+    "postal_codes": [
+      "108804"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 60857,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Солнечногорский р-н",
+    "city": "Ханыгино",
+    "postal_codes": [
+      "141503"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 60867,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Щаповское",
+    "city": "Лесное Озеро",
+    "postal_codes": [
+      "108828"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 60720,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Домодедовский р-н",
+    "city": "Сокольниково",
+    "postal_codes": [
+      "141897"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 60809,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Белавинское с/п",
+    "city": "Федотово",
+    "postal_codes": [
+      "157091"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 60786,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Рузский р-н",
+    "city": "Устинково",
+    "postal_codes": [
+      "143130"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61530,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Орехово-Зуевский р-н",
+    "city": "Юркино (Горское с/п)",
+    "postal_codes": [
+      "142660"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 61324,
+    "country_code": "RU",
+    "region": "Томская обл.",
+    "region_code": 53,
+    "sub_region": " Каргасокский р-н",
+    "city": "Молодежный",
+    "postal_codes": [
+      "636754"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 62580,
+    "country_code": "RU",
+    "region": "Ленинградская обл.",
+    "region_code": 26,
+    "sub_region": " Всеволожский р-н",
+    "city": "26 км автодороги \"Кола\"",
+    "postal_codes": [
+      "188686"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 62613,
+    "country_code": "RU",
+    "region": "Алтайский край",
+    "region_code": 2,
+    "sub_region": " Майминский р-н",
+    "city": "Алферово",
+    "postal_codes": [
+      "649100"
+    ],
+    "country": "Россия",
+    "payment_limit": 0
+  },
+  {
+    "code": 63017,
+    "longitude": 38.910419,
+    "latitude": 55.023759,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": "",
+    "city": "Луховицы-3",
+    "postal_codes": [
+      "140503"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 63032,
+    "longitude": 0,
+    "latitude": 0,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": " Егорьевский р-н",
+    "city": "Саввино",
+    "postal_codes": [
+      "140332"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 1277,
+    "longitude": 0,
+    "latitude": 0,
+    "country_code": "RU",
+    "region": "Московская обл.",
+    "region_code": 9,
+    "sub_region": "",
+    "city": "Ново-Переделкино",
+    "postal_codes": [
+      "119633",
+      "119634"
+    ],
+    "country": "Россия",
+    "payment_limit": -1
+  },
+  {
+    "code": 3132,
+    "longitude": 38.83885,
+    "latitude": 48.160416,
+    "country_code": "RU",
+    "region": "Челябинская обл.",
+    "region_code": 3,
+    "sub_region": "",
+    "city": "Вахрушево",
+    "postal_codes": [
+      "456621",
+      "456657"
+    ],
+    "country": "Россия",
+    "time_zone": "Europe/Zaporozhye",
+    "payment_limit": -1
+  }
+]

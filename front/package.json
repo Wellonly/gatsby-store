@@ -1,0 +1,31 @@
+{
+  "name": "front",
+  "version": "0.0.3",
+  "main": "index.js",
+  "author": "Well",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "dev": "gatsby --verbose develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "allclean": "gatsby clean && rm -rf ./node_modules && rm -rf ../node_modules && rm ../yarn.lock && echo ...allclean ok"
+  },
+  "dependencies_toRemove": {
+    "styled-components": "^4.4.1"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.33",
+    "gatsby-theme-third": "*",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com"
+}

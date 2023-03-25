@@ -1,0 +1,9 @@
+.cache
+.DS_Store
+node_modules
+/public
+
+.env
+.env.production
+
+src/imported/*

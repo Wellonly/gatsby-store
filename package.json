@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-store",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "gatsby front",
+  "scripts": {
+    "start": "yarn workspace front dev",
+    "dev": "yarn workspace front dev",
+    "build": "yarn workspace front build",
+    "clean": "yarn workspace front clean",
+    "allclean": "yarn workspace front allclean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "cdek",
+    "theme",
+    "front"
+  ],
+  "main": "index.js"
+}
